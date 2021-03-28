@@ -1,0 +1,142 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #efefef;
+    margin: 0 auto 0 auto;  
+    width:100%;
+    height: 100%; 
+    text-align:center;
+    margin: 20px 20px 0px 0px;   
+    margin-top:0px;
+  }
+  
+  .btn{
+    background:#FFFFFF;
+    width:100px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:#2A304A;
+    border-radius:7px;
+    border: #D8D8D8 1px solid;
+    
+    margin-top:30px;
+    margin-bottom:8px;
+    float:left;
+    margin-left:50px;
+    font-weight:800;
+    font-size:0.8em;
+    transition-duration: 0.2s;
+  }
+  .btn:hover {
+    background-color: 4166FF;
+    color: white;
+  }
+
+  .btn3{
+    background:#FFFFFF;
+    width:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:#2A304A;
+    border-radius:7px;
+    border: #D8D8D8 1px solid;
+    
+    margin-top:30px;
+    margin-bottom:8px;
+    float:left;
+    margin-left:10px;
+    font-weight:800;
+    font-size:0.8em;
+    transition-duration: 0.2s;
+  }
+  .btn3:hover {
+    background-color: 4166FF;
+    color: white;
+  }
+
+  .btn2{
+    background:#FFFFFF;
+    width:110px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:#2A304A;
+    border-radius:7px;
+    border: #D8D8D8 1px solid;
+    
+    margin-top:30px;
+    margin-bottom:8px;
+    float:left;
+    margin-left:10px;
+    font-weight:800;
+    font-size:0.8em;
+    transition-duration: 0.2s;
+  }
+  .btn2:hover {
+    background-color: 4166FF;
+    color: white;
+  }
+
+nav {
+    width: 200%;
+    display: flex;
+    position: float;
+    background-color: white;
+    z-index: 200;
+    
+}
+
+nav a {
+    color: #fff;
+    margin: auto 20px auto 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li {
+    float: left;
+    list-style: none;   
+    margin-left: 20px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+    }
+
+.box {
+    width: 1500px;
+    height: 800px;
+    background: white;
+    border-radius:12px;
+    border: #D8D8D8 1px solid;
+    }
+
+    navbox {
+        width: 100%;
+        display: flex;
+        position: float;
+        background-color:  white;
+        z-index: 100;
+        height: 70px;
+        border-radius:12px;
+        border: #D8D8D8 1px solid;
+    }
+    
+    navbox a {
+        color: black;
+        margin: auto 20px auto 40px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    navbox ul {
+        float: left;
+        list-style: none;   
+        margin-left: -50px;
+        margin-top: -15px;
+    }
+
+    
