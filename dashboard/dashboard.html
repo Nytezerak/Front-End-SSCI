@@ -1,6 +1,7 @@
 <html>
 <head>
 	<title>Dashboard-Page-SSCI</title>
+    <link rel="stylesheet" type="text/css" href="../cssReset/reset.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -10,33 +11,42 @@
 </head>
 <body>
 
+            <header>
+                <nav>
+                    <ul>
+                         <!--NavBAR-->
+                        <a href="../dashboard/dashboard.html"><div class="btn">Pedidos</div></a>
+                        <a href="../dashboard/dashboard.html"><div class="btn2">Cardápio</div></a>
+                        <a href="../dashboard/dashboard.html"><div class="btn3">Icon</div></a> 
+                    </ul>
+                </nav> 
 
-            <nav>
-                <ul>
-                     <!--NavBAR-->
-                    <a href="../dashboard/dashboard.html"><div class="btn">Pedidos</div></a>
-                    <a href="../dashboard/dashboard.html"><div class="btn2">Cardápio</div></a>
-                    <a href="../dashboard/dashboard.html"><div class="btn3">Icon</div></a> 
-                </ul>
-            </nav> 
+            </header>
 
-            
-            <div class="container">
-                <div class="box">
-                  <!--Nav BAR Banco de Dados-->
-                    <navbox>
-                        <p>Mostrar Ordernar por</p><br>
-                        <ul>
-                            <a  href="../dashboard/dashboard.html"><div class="btn4">Hoje</div></a>
-                            <a  href="../dashboard/dashboard.html"><div class="btn5">Ultimos Pedidos</div></a> 
-                        </ul>
+            <main>
+                <div class="container">
+                    <div class="box">
+                      <!--Nav BAR Banco de Dados-->
+                        <navbox>
+                           
+                            <ul>
+                               <a href="../dashboard/dashboard.html"><div class="btn4">Hoje</div></a>
+                                <a href="../dashboard/dashboard.html"><div class="btn5">Ultimos Pedidos</div></a> 
+                            </ul>
+                        
+                        </navbox> 
+                    <!--Campo para Banco de Dados-->
+                        <div class="boxbd">
+                            <ul>
+                                <li></li>
+                            </ul>
+                        </div>
                     
-                    </navbox> 
-                <!--Campo para Banco de Dados-->
-                    <div class="boxbd">
-
                     </div>
-                
                 </div>
-            </div>
+            </main>
+
+            <footer>
+                
+            </footer>
 </body>
